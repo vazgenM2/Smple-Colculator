@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div class="colculator">
+        <div id=out>
+            <input type="text" id="output" disabled onmousedown="return false" onselectstart="return false" >
+        </div>
+        <div class="div1" name='div-1' onselectstart="return false" >
+            <div id="CR" class="kn" onclick="delLast(id)">←</div>
+            <div id="C" class="kn" onclick="delAll(id)">C</div>
+            <div id="g1" class="kn" onclick ="simpleBtn(id)">+</div>
+            <div id="seven" class="kn" onclick ="simpleBtn(id)">7</div>
+            <div id="eight" class="kn" onclick ="simpleBtn(id)">8</div>
+            <div id="nine" class="kn" onclick ="simpleBtn(id)">9</div>
+            <div id="g2" class="kn" onclick ="simpleBtn(id)">-</div>
+            <div id="fore" class="kn" onclick ="simpleBtn(id)">4</div>
+            <div id="fife" class="kn" onclick ="simpleBtn(id)">5</div>
+            <div id="six" class="kn" onclick ="simpleBtn(id)">6</div>
+            <div id="g3" class="kn" onclick ="simpleBtn(id)">*</div>
+            <div id="one" class="kn" onclick ="simpleBtn(id)">1</div>
+            <div id="two" class="kn" onclick ="simpleBtn(id)">2</div>
+            <div id="three" class="kn" onclick ="simpleBtn(id)">3</div>
+            <div id="g4" class="kn" onclick ="simpleBtn(id)">/</div>
+            <div id="dblzero" class="kn" onclick ="simpleBtn(id)">00</div>
+            <div id="p1" class="kn" onclick ="simpleBtn(id)">(</div>
+            <div id="p2" class="kn" onclick ="simpleBtn(id)">)</div>
+            <div id="result" class="kn" onclick="showResult(id)">=</div>
+            <div id="zero" class="kn" onclick ="simpleBtn(id)">0</div>
+            <div id="ket" class="kn" onclick ="simpleBtn(id)">.</div>
+        </div>    
+    </div>
+
+    <script src="code.js"></script>
+    
+</body>
+</html>
